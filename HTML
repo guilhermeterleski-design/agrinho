@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroForte | Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header role="banner">
+        <nav class="navbar" aria-label="Navegação Principal">
+            <div class="logo">Agro<span>Forte</span></div>
+            <div class="accessibility-controls">
+                <button onclick="changeFontSize('increase')" aria-label="Aumentar fonte">A+</button>
+                <button onclick="changeFontSize('decrease')" aria-label="Diminuir fonte">A-</button>
+                <button onclick="toggleContrast()" aria-label="Alternar Alto Contraste">◐</button>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="container scroll-reveal">
+                <h1 id="hero-title">Equilíbrio entre Produção e Meio Ambiente</h1>
+                <p>Tecnologia e sustentabilidade caminhando juntas para alimentar o mundo.</p>
+                <a href="#solucoes" class="btn-primary">Conheça nossas soluções</a>
+            </div>
+        </section>
+
+        <section id="solucoes" class="section-padding" aria-labelledby="sec-solucoes">
+            <h2 id="sec-solucoes" class="text-center scroll-reveal">Pilares do Agro Sustentável</h2>
+            <div id="cards-container" class="grid-container">
+                </div>
+        </section>
+
+        <section class="carousel-section section-padding" aria-label="Destaques Tecnológicos">
+            <div class="carousel" id="tech-carousel">
+                <div class="carousel-track" id="carousel-track">
+                    </div>
+                <div class="carousel-nav">
+                    <button class="prev" aria-label="Slide anterior">❮</button>
+                    <button class="next" aria-label="Próximo slide">❯</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-padding bg-light" aria-labelledby="sec-faq">
+            <h2 id="sec-faq" class="text-center">Perguntas Frequentes</h2>
+            <div id="faq-container" class="accordion-container">
+                </div>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <p>&copy; 2026 AgroForte - Cultivando um amanhã melhor.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
